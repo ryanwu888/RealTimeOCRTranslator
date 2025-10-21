@@ -1,4 +1,6 @@
 """"
+Notes to Self
+
 To enter Virtual Envrionment:
 
 Set-ExecutionPolicy Unrestricted -Scope Process; . .\venv\Scripts\Activate.ps1
@@ -84,5 +86,6 @@ if __name__ == "__main__":
 
     ocr_worker.start()
     translate_worker.start()
+
 
     sys.exit(app.exec_())
