@@ -1,3 +1,5 @@
+Notes to Self
+
 1. To enter Virtual Envrionment:
     Set-ExecutionPolicy Unrestricted -Scope Process
     venv\Scripts\Activate.ps1
@@ -11,4 +13,5 @@ REPLACE:
     # vgg_pretrained_features = models.vgg16_bn(pretrained=pretrained).features
     weights = VGG16_BN_Weights.DEFAULT if pretrained else None                       # replaced
     vgg_pretrained_features = models.vgg16_bn(weights=weights).features              # replaced
+
 
